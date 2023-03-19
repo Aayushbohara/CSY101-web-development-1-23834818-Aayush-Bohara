@@ -216,3 +216,23 @@
          z-index: -1;
          opacity: .8;
         }
+        .contact-left{
+            flex-basis: 35%;
+            text-align: center;
+           
+         }
+         .contact-left p{
+            margin-top: 30px;
+            text-align: center;
+           
+         }
+         .contact-left p a{
+            color: skyblue;
+            margin-right: 15px;
+            font-size: 25px;
+         }
+         .contact-left p a:hover{
+            cursor: pointer;
+            box-shadow: 0 0 10px skyblue;
+      
+         }
