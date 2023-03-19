@@ -196,3 +196,23 @@
             box-shadow: 0 0 20px crimson;
             border:none;
           }
+          /*Contact Section*/
+    #contact{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        color: white;
+        padding: 20px;
+  
+     }
+     #contact::before{
+        content:"";
+         position: fixed;
+         top:0;
+         right:0;
+         background: url('image/bg.jpg') no-repeat center center/cover;
+         height: 900px;
+         width: 100%;
+         z-index: -1;
+         opacity: .8;
+        }
